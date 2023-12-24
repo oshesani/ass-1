@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Application Form</title>
+    <link rel="shortcut icon" href="image/favicon.png">
+</head>
+<body>
+    <img src="image/Altschool.png" alt="Alt School Logo">
+    <header> <h2>Altschool Application Form</h2></header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">About Me</a></li>
+            <li>Altschool Form</li>
+        </ul>
+    </nav>
+
+    <p>Fill In Your Details</p>
+
+    <form action="submit.php" method="post">
+        <fieldset>
+            
+            <label for="full-name">Full name:</label>
+            <input type="text" id="full name" name="full-name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone number">Phone number:</label>
+            <input type="phone number" id="phone number" name="phone number" required><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="" disabled selected hidden>Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for=" select education level">Education Level:</label>
+            <select id="Select education level" name=" select education level">
+                <option value="" disabled selected hidden>Select here</option>
+                <option value="bsc">Bsc</option>
+                <option value="msc">Msc</option>
+                <option value="diploma">Diploma</option>
+                <option value="doctorate phd">Doctorate PhD</option>
+                <option value="highschool / secondary school">Highschool / Secondaryschool</option>
+                <option value="undergraduate">Under Graduate</option>
+                <option value="junior / middle school">Junior / Middle School</option>
+                <option value="post-graduate">Post-Graduate</option>
+            </select><br>
+
+            <label for="country">Country:</label>
+            <input type="country" id="country" name="country" required><br>        
+
+
+            <label for="state of residence">State Of Residence:</label>
+            <input type="state of residence" id="state of residence" name="state of residence" required><br>
+
+            <label for="choose school">Choose School:</label>
+           <select id="choose school"  name="choose school">
+            <option value="" disabled selected hidden>Select here</option>
+                <option value="school of engineering">School Of Engineering</option>
+                <option value="school of data">School Of Data</option>
+                <option value="school of marketing">School Of Marketing</option>
+            </select><br>
+
+            <label for="how did you hear about us ">How Did You Hear About Us</label>
+            <select id="channel" name="channel">
+                <option value="" disabled selected hidden>Select here</option>
+                <option value="facebook">FaceBook</option>
+                <option value="linkedin">Linkedin</option>
+                <option value="instagram">Instagram</option>
+                <option value="whatsapp">Whatsapp</option>
+                <option value="friend">Friend</option>
+                <option value="bill board">Bill Board</option>
+                <option value="youtube">Youtube</option>
+                <option value="twitter">Twitter</option>
+            </select><br>
+
+            <label for="scholarship/discount code">Scholarship/Discount Code:</label>
+            <input type="scholarship/discount code" id="scholarship/discount code" name="scholarship/discount code" required>
+        </fieldset>
+    </form>
+
+
+
+      
+    <footer><p>By clicking submit, I agree to Your <a href="terms.html" target="_blank">Terms of Use</a> and have read the <a href="privacy.html" target="_blank">Privacy Policy</a>.</p>
+<hi>Click the submit Button</hi>
+        <form action="submit.php" method="POST">
+            <input type="submit" value="Submit">
+        </form>
+    </footer>
+
+    
+     
+    
+</body>
+</html>
